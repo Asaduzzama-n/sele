@@ -38,13 +38,11 @@ const styles = StyleSheet.create({
     flex: 1,
     width: Dimensions.get("window").width,
     height: Dimensions.get("window").height,
-    
   },
   imageContainer: {
-    flex: 0.6,
+    flex: 0.6, // 60% of the screen height
     alignItems: "center",
-    justifyContent: "flex-end",
-
+    justifyContent: "center",
   },
   image: {
     resizeMode: "contain",
@@ -55,11 +53,12 @@ const styles = StyleSheet.create({
     zIndex: -1,
   },
   textContainer: {
-    
-    flex: 0.3,
+    flex: 0.3, // 30% of the screen height
     justifyContent: "center",
     alignItems: "center",
     paddingHorizontal: 20,
+    backgroundColor: '#FFFF',
+    zIndex: -10,
   },
   title: {
     fontSize: 24,
