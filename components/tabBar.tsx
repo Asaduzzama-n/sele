@@ -5,7 +5,7 @@ import { PlatformPressable } from "@react-navigation/elements";
 import TabBarButton from "./tabBarButton";
 import { useState } from "react";
 import Animated, { useAnimatedStyle, useSharedValue, withSpring } from "react-native-reanimated";
-import { AnimatedView } from "react-native-reanimated/lib/typescript/component/View";
+
 export const ICONS: { [key: string]: string } = {
     Home: 'home',
     Explore: 'compass',
